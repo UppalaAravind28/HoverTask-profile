@@ -18,11 +18,7 @@ img{
 p{
     margin-left: 75px;
 }
-section{
-    display: flex;
-    flex-wrap: nowrap;
 
-}
 .desc{
     margin: 30px;
 visibility: hidden;
