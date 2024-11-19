@@ -1,0 +1,41 @@
+div{
+    
+    border: 3px rgb(184, 177, 177) solid;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(198, 206, 212);
+    
+ margin: 30px;
+ margin-left: 200px;
+ 
+}
+img{
+    height: 200px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border: solid black;
+}
+p{
+    margin-left: 75px;
+}
+section{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.desc{
+    margin: 30px;
+visibility: hidden;
+        font-family: Arial, sans-serif; 
+        font-size: 16px; 
+        line-height: 1.6; 
+        color: #333; 
+         
+        text-align: justify; 
+        background-color: rgb(230, 206, 206);
+      
+}
+div:hover+p{
+    visibility: visible;
+}
+   
